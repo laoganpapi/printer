@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "created_at": "2026-04-12",
+  "last_run_at": null,
+  "cycle_count": 0,
+  "defaults": {
+    "monthly_target_usd": 5000,
+    "immunefi_enabled": true,
+    "max_concurrent_bounties": 2,
+    "max_concurrent_audits": 1,
+    "allowed_languages": ["typescript", "javascript", "python", "rust", "go", "solidity"],
+    "quality_bar": "gold-plated",
+    "accept_xtm_tokens": null,
+    "daily_human_minutes": 10,
+    "github_handle": null,
+    "payout_methods_ready": {
+      "algora_stripe": false,
+      "polar_stripe": false,
+      "immunefi_kyc": false,
+      "tari_wallet": false
+    }
+  },
+  "bounties": {
+    "in_progress": [],
+    "completed": [],
+    "abandoned": [],
+    "total_earned_usd": 0
+  },
+  "audits": {
+    "in_progress": [],
+    "reports_drafted": [],
+    "reports_submitted": [],
+    "payouts": [],
+    "total_earned_usd": 0
+  },
+  "stats": {
+    "prs_opened": 0,
+    "prs_merged": 0,
+    "reports_drafted": 0,
+    "reports_submitted": 0,
+    "cycles_run": 0
+  },
+  "blockers": [
+    "user_has_not_completed_one_time_setup"
+  ]
+}
